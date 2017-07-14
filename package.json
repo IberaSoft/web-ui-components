@@ -1,0 +1,23 @@
+{
+  "name": "web-ui-components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/IberaSoft/web-ui-components.git",
+  "author": "Juan Llorens",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.1.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.20",
+    "@types/react": "^16.9.16",
+    "typescript": "^3.7.3"
+  }
+}
