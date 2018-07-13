@@ -1,8 +1,8 @@
 # Web UI Components
 
-![Storybook](https://github.com/storybookjs/brand/blob/master/badge/badge-storybook.svg)
+[![Storybook](https://github.com/storybookjs/brand/blob/master/badge/badge-storybook.svg)](https://storybook.js.org/)
 
-> Step by step guide of how to start a project with Next.js, React.js, TypeScript and Storybook
+> Starting project with Next.js, React.js, TypeScript and Storybook
 
 
 ## Quick Start
