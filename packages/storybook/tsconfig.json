@@ -1,0 +1,16 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+        "outDir": "dist",
+        "rootDir": "stories"
+    },
+    "exclude": ["node_modules", "dist", "**/styles/*"],
+    "references": [
+        {
+            "path": "../button"
+        },
+        {
+            "path": "../header"
+        }
+    ]
+}

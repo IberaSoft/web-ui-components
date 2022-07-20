@@ -1,0 +1,23 @@
+{
+    "name": "@typescript-monorepo/storybook",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "private": true,
+    "scripts": {
+        "storybook": "start-storybook",
+        "docs:dev": "npm run storybook",
+        "clean": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo"
+    },
+    "dependencies": {
+        "@emotion/react": "11.5.0",
+        "@emotion/styled": "11.3.0",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "@typescript-monorepo/button": "^1.0.0",
+        "@typescript-monorepo/header": "^1.0.0"
+    }
+}
