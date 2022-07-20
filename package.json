@@ -1,7 +1,31 @@
 {
-    "name": "typescript-monorepo",
-    "version": "1.0.0",
+    "name": "@iberasoft/web-ui-components",
+    "version": "0.0.1",
+    "description": "Monorepo with React UI components following Atomic Design principles",
     "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IberaSoft/web-ui-components.git"
+      },
+    "author": "IberaSoft",
+    "license": "GPL-3.0-or-later",
+    "keywords": [
+        "monorepo",
+        "lerna",
+        "react",
+        "typescript",
+        "react-testing-library",
+        "ui-components",
+        "ux/ui",
+        "atoms",
+        "molecules",
+        "organisms",
+        "design",
+        "storybook"
+    ],
+    "bugs": {
+    "url": "https://github.com/IberaSoft/web-ui-components/issues"
+    },
     "workspaces": [
         "packages/*"
     ],
