@@ -1,4 +1,26 @@
-.DS_Store/
-.vscode/
-node_modules/
-dist
+# Dependency directories
+node_modules
+
+# Build directories
+packages/*/dist
+packages/*/tsconfig.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Package manager
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# tests
+cypress/screenshots/*
+cypress/videos/*
+coverage
+
+# IDE and mac files
+.idea/*
+.vscode
+.DS_Store
